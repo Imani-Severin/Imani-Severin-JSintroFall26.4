@@ -25,6 +25,7 @@
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
     <a href="#connect">Connect</a>
+    <a href="#message">Leave a Message</a>
   </nav>
   
   <link href="css/index.css" rel="stylesheet">
@@ -98,7 +99,37 @@
 </ul>
 </section>
 
-<script src="js/index.js"><script>
+
+<h2>Leave a Message</h2>
+<section id="message">
+  <form name="leave_message">
+    <label>
+      Name
+    <input style = "margin-right: 40px; width: 200px; padding: 10px; height: 10px;" type="text" name="usersName" required>
+    </label>
+  
+    <label>
+      Email
+    <input style= "margin-right: 40px; padding: 10px; width: 200px; height: 10px;" type="email" name="usersEmail" required>
+    </label>
+  <br>
+    <label>
+      Message
+    <textarea style = " padding: 20px; width: 300px; height: 100px; margin-top: 50px;" name="usersMessage" required></textarea>
+    </label>
+<br>
+    <button style = "margin-top: 20px; font-size: 20px;" type="submit">Submit</button>
+  </form>
+</section>
+
+<section id="messages">
+<h2>Messages</h2>
+  <ul>
+
+  </ul>
+</section>
+
+<script src="js/index.js"></script>
 </body>
 
 
